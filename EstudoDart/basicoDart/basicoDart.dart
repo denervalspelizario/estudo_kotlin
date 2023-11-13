@@ -44,30 +44,5 @@ main(){
 
   print(aluno['joao']); // [10, 9, 8]
 
-  var nome = 'Denerval';
-  var sobreNome = 'Pelizario';
-
-  Pessoa pessoa = new Pessoa(nome, sobreNome);
-
-  
 }
 
-
-// Orientação ao Objeto
-class Pessoa {
-  // atributos
-  String nome;
-  String sobreNome;
-
-  // classe
-  Pessoa(String nome, String sobreNome){
-    this.nome = nome;
-    this.sobreNome = sobreNome;
-  }
-
-  // metodos
-  nomeCompleto(){
-    return '${this.nome}  ${this.sobreNome}';
-  }
-
-}
